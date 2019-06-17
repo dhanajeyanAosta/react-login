@@ -1,0 +1,14 @@
+language: node_js
+node_js: 
+  - "stable"
+cache:
+  directories:
+    - "node_modules"
+
+deploy:
+  provider: heroku
+  api_key: 2eb426fe-bbac-4700-a545-e0ca3fcf9baf
+  app: react-login
+  on:
+    all_branches: true
+  strategy: git
