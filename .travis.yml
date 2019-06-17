@@ -5,6 +5,10 @@ cache:
   directories:
     - "node_modules"
 
+script:
+  - npm test
+  - npm run build
+
 deploy:
   provider: heroku
   api_key: 2eb426fe-bbac-4700-a545-e0ca3fcf9baf
