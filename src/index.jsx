@@ -7,7 +7,7 @@ import { App } from './App';
 import { configureFakeBackend } from './_helpers';
 configureFakeBackend();
 
-var port = process.env.port || 3000
+
 
 render(
     <App />,
