@@ -8,7 +8,7 @@ cache:
 deploy:
   provider: heroku
   api_key: 2eb426fe-bbac-4700-a545-e0ca3fcf9baf
-  app: react-login
+  app: react-login-app
   on:
     all_branches: true
   strategy: git
