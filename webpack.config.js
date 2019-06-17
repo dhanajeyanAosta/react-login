@@ -20,7 +20,7 @@ module.exports = {
     })],
     devServer: {
         historyApiFallback: true,
-        port: process.env.port || 3000
+        PORT: process.env.PORT || 3000
     },
     externals: {
         // global app config object
