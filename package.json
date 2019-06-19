@@ -1,6 +1,7 @@
 {
   "name": "react-basic-authentication-example",
   "version": "1.0.0",
+  "main":"index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/cornflourblue/react-basic-authentication-example.git"
