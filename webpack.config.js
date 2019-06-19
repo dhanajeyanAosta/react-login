@@ -4,6 +4,10 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     mode: 'development',
     entry: './src/index.jsx',
+    output: {
+        path: path.join(__dirname, ''),
+        filename: 'bundle.js'
+     },
     resolve: {
         extensions: ['.js', '.jsx']
     },
@@ -19,8 +23,7 @@ module.exports = {
         template: './src/index.html'
     })],
     devServer: {
-        historyApiFallback: true,
-        port:process.env.port||3000
+        historyApiFallback: true
     },
     externals: {
         // global app config object

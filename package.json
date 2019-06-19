@@ -7,9 +7,10 @@
   },
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --open",
+    "dev": "webpack-dev-server --open",
     "build": "webpack --mode production",
-    "heroku-postbuild": "npm run build"
+    "postinstall": "webpack -p",
+    "start":"node server.js"
   },
   "engines": {
     "node":"10.16.0",
