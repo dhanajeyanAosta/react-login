@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "webpack-dev-server --open",
     "build": "webpack --mode production",
+    "postinstall": "webpack -p",
     "start":"node server.js"
   },
   "engines": {
